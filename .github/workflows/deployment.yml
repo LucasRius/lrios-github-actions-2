@@ -1,5 +1,5 @@
 name: Deploymen Project
-on: push
+on: [push, workfow_dispatch]
 jobs:
   teste:
     runs-on: ubuntu-latest
